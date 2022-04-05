@@ -7,4 +7,3 @@ function findMultiples(integer, limit){
   return arr
 }
 
-//hello world!
