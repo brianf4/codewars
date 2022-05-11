@@ -4,4 +4,7 @@ function solution(a, b){
   }else {
     return a + b + a
   }
+
+  //or
+  //a.length > b.length ? b + a + b : a + b + a
 }
