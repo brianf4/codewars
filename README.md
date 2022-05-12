@@ -5,4 +5,5 @@ A repository that holds katas (codewar challenges). Completed close to 200 chall
 
 ## How it's made:
 **Tech used:** JavaScript
+
 Every single day I push a challenge to keep my problem solving skills sharp. 
