@@ -1,8 +1,8 @@
-function well(arr){
+function well(x){
   let counter = 0;
   
-  for (let i = 0; i < arr.length; i++){
-    if (arr[i] === 'good'){
+  for (let i = 0; i < x.length; i++){
+    if (x[i] === 'good'){
       counter++
     }
   }
