@@ -15,3 +15,4 @@ function sumOfDifferences(arr) {
      }
      return total
    }
+   
