@@ -1,10 +1,16 @@
 function lastManStanding(n){
-  let arr = Array.from({length: n}).map((_, idx) => idx + 1);
-  
-  while(arr.length > 1) {
-    arr = arr.filter((e, idx) => idx % 2 !== 0)
-    arr.reverse()
+  let arr = [];
+
+    
+  for (let i = 2; i <= n; i+=2) {
+    arr.push(i)
   }
   
-  return arr[0]
+  while (true) {
+    arr = arr.reverse().filter((num, i) => i % 2 !== 0)
+    
+    if (arr.length === 1) {
+      return arr[0];
+    }
+  }
 }
